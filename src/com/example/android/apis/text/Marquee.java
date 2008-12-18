@@ -1,5 +1,5 @@
-/*
- * Copyright (C) 2008 The Android Open Source Project
+/* 
+ * Copyright (C) 2007 Google Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,33 +14,18 @@
  * limitations under the License.
  */
 
-package com.example.android.apis.graphics;
+package com.example.android.apis.text;
+
+import com.example.android.apis.R;
 
 import android.app.Activity;
-import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 
-public class TriangleActivity extends Activity {
-
+public class Marquee extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mGLView = new GLSurfaceView(this);
-        mGLView.setRenderer(new TriangleRenderer(this));
-        setContentView(mGLView);
+        
+        setContentView(R.layout.marquee);
     }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        mGLView.onPause();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        mGLView.onResume();
-    }
-
-    private GLSurfaceView mGLView;
 }
