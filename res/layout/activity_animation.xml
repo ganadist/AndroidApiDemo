@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!-- Copyright (C) 2009 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 -->
 
 <!-- Demonstrates starting and stopping a local service.
-     See corresponding Java code com.android.sdk.app.ServiceStartArguments.java. -->
+     See corresponding Java code com.android.sdk.app.LocalSerice.java. -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="4dip"
     android:gravity="center_horizontal"
@@ -25,32 +25,17 @@
         android:layout_width="fill_parent" android:layout_height="wrap_content"
         android:layout_weight="0"
         android:paddingBottom="4dip"
-        android:text="@string/service_start_arguments_controller"/>
+        android:text="@string/activity_animation_msg"/>
 
-    <Button android:id="@+id/start1"
+    <Button android:id="@+id/fade_animation"
         android:layout_width="wrap_content" android:layout_height="wrap_content" 
-        android:text="@string/start1_service">
+        android:text="@string/activity_animation_fade">
         <requestFocus />
     </Button>
 
-    <Button android:id="@+id/start2"
+    <Button android:id="@+id/zoom_animation"
         android:layout_width="wrap_content" android:layout_height="wrap_content" 
-        android:text="@string/start2_service">
-    </Button>
-
-    <Button android:id="@+id/start3"
-        android:layout_width="wrap_content" android:layout_height="wrap_content" 
-        android:text="@string/start3_service">
-    </Button>
-
-    <Button android:id="@+id/startfail"
-        android:layout_width="wrap_content" android:layout_height="wrap_content" 
-        android:text="@string/startfail_service">
-    </Button>
-
-    <Button android:id="@+id/kill"
-        android:layout_width="wrap_content" android:layout_height="wrap_content" 
-        android:text="@string/kill_process">
+        android:text="@string/activity_animation_zoom">
     </Button>
 
 </LinearLayout>
