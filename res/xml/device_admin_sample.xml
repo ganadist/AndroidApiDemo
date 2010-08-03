@@ -22,6 +22,7 @@
         <reset-password />
         <force-lock />
         <wipe-data />
+        <set-global-proxy />
     </uses-policies>
 </device-admin>
 <!-- END_INCLUDE(meta_data) -->
