@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2010 The Android Open Source Project
+ * Copyright (C) 2012 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -41,7 +41,7 @@ import android.widget.SearchView.OnQueryTextListener;
  * Demonstration of the use of a CursorLoader to load and display contacts
  * data in a fragment.
  */
-public class LoaderCursor extends Activity {
+public class LoaderRetained extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +68,9 @@ public class LoaderCursor extends Activity {
 
         @Override public void onActivityCreated(Bundle savedInstanceState) {
             super.onActivityCreated(savedInstanceState);
+
+            // In this sample we are going to use a retained fragment.
+            setRetainInstance(true);
 
             // Give some text to display if there is no data.  In a real
             // application this would come from a resource.
