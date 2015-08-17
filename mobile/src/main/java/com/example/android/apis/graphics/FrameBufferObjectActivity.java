@@ -26,6 +26,7 @@ import android.opengl.GLSurfaceView;
 import android.opengl.GLU;
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * Demonstrate the Frame Buffer Object OpenGL ES extension.
@@ -33,7 +34,7 @@ import android.os.SystemClock;
  * This sample renders a scene into an offscreen frame buffer, and then
  * uses the resulting image as a texture to render an onscreen scene.
  */
-public class FrameBufferObjectActivity extends Activity {
+public class FrameBufferObjectActivity extends AppCompatActivity {
     private GLSurfaceView mGLSurfaceView;
 
     private class Renderer implements GLSurfaceView.Renderer {

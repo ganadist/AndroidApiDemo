@@ -15,6 +15,7 @@
  */
 package com.example.android.apis.view;
 
+import com.example.android.apis.AppCompatListActivity;
 import com.example.android.apis.R;
 
 import android.app.ListActivity;
@@ -30,7 +31,7 @@ import android.widget.Toast;
 /**
  * This demo illustrates the use of CHOICE_MODE_MULTIPLE_MODAL, a.k.a. selection mode on ListView.
  */
-public class List15 extends ListActivity {
+public class List15 extends AppCompatListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

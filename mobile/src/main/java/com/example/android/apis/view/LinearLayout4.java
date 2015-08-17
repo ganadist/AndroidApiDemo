@@ -22,13 +22,14 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 
 /**
  * Demonstrates a horizontal linear layout with equally sized columns.
  *
  */
-public class LinearLayout4 extends Activity {
+public class LinearLayout4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

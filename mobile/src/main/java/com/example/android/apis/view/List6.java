@@ -26,13 +26,15 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.android.apis.AppCompatListActivity;
+
 
 /**
  * A list view example where the 
  * data comes from a custom
  * ListAdapter
  */
-public class List6 extends ListActivity 
+public class List6 extends AppCompatListActivity
 {
     
     @Override

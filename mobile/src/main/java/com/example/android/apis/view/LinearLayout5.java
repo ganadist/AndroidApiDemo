@@ -22,13 +22,14 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 
 /**
  * Demonstrates building a simple form with nested LinearLayouts.
  *
  */
-public class LinearLayout5 extends Activity {
+public class LinearLayout5 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -22,6 +22,7 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
@@ -30,7 +31,7 @@ import android.widget.Button;
  * and {@link Activity#showDialog} to ensure the dialogs will be properly saved
  * and restored.
  */
-public class ProgressBar3 extends Activity {
+public class ProgressBar3 extends AppCompatActivity {
 
     ProgressDialog mDialog1;
     ProgressDialog mDialog2;

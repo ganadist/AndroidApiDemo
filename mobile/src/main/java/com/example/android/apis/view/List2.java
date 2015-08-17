@@ -23,11 +23,13 @@ import android.os.Bundle;
 import android.widget.ListAdapter;
 import android.widget.SimpleCursorAdapter;
 
+import com.example.android.apis.AppCompatListActivity;
+
 /**
  * A list view example where the
  * data comes from a cursor.
  */
-public class List2 extends ListActivity {
+public class List2 extends AppCompatListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -20,6 +20,7 @@ package com.example.android.apis.animation;
 // class is in a sub-package.
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.LinearLayout;
 import com.example.android.apis.R;
 
@@ -40,7 +41,7 @@ import android.widget.Button;
  * This application demonstrates how to use LayoutTransition to automate transition animations
  * as items are hidden or shown in a container.
  */
-public class LayoutAnimationsHideShow extends Activity {
+public class LayoutAnimationsHideShow extends AppCompatActivity {
 
     private int numButtons = 1;
     ViewGroup container = null;

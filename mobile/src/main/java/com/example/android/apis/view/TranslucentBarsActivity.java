@@ -18,13 +18,15 @@ package com.example.android.apis.view;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
 import com.example.android.apis.R;
 
 /**
  * This activity demonstrates a simple implementation of displaying
  * content with translucent system UI bars.
  */
-public class TranslucentBarsActivity extends Activity {
+public class TranslucentBarsActivity extends AppCompatActivity {
     public TranslucentBarsActivity() {
     }
 

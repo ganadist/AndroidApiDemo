@@ -22,6 +22,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
@@ -34,7 +35,7 @@ import com.example.android.apis.R;
 /**
  * The configuration screen for the ExampleAppWidgetProvider widget sample.
  */
-public class ExampleAppWidgetConfigure extends Activity {
+public class ExampleAppWidgetConfigure extends AppCompatActivity {
     static final String TAG = "ExampleAppWidgetConfigure";
 
     private static final String PREFS_NAME

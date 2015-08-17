@@ -20,6 +20,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.RadioGroup;
@@ -28,7 +29,7 @@ import android.widget.RadioButton;
 import android.widget.LinearLayout;
 
 
-public class RadioGroup1 extends Activity implements RadioGroup.OnCheckedChangeListener,
+public class RadioGroup1 extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener,
         View.OnClickListener {
 
     private TextView mChoice;

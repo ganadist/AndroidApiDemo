@@ -20,6 +20,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -28,7 +29,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 
-public class TableLayout7 extends Activity {
+public class TableLayout7 extends AppCompatActivity {
     private boolean mShortcutsCollapsed;
     private boolean mCheckmarksCollapsed;
 

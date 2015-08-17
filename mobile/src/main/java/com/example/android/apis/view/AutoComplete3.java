@@ -20,11 +20,12 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 
 
-public class AutoComplete3 extends Activity {
+public class AutoComplete3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

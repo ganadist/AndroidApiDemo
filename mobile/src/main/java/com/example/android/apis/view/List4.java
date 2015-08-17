@@ -16,6 +16,7 @@
 
 package com.example.android.apis.view;
 
+import com.example.android.apis.AppCompatListActivity;
 import com.example.android.apis.Shakespeare;
 
 import android.app.ListActivity;
@@ -31,7 +32,7 @@ import android.widget.TextView;
 /**
  * A list view example where the data comes from a custom ListAdapter
  */
-public class List4 extends ListActivity {
+public class List4 extends AppCompatListActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

@@ -19,6 +19,7 @@ package com.example.android.apis.graphics;
 import android.app.Activity;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -30,7 +31,7 @@ import com.example.android.apis.R;
 /**
  * Demonstration of overlays placed on top of a SurfaceView.
  */
-public class SurfaceViewOverlay extends Activity {
+public class SurfaceViewOverlay extends AppCompatActivity {
     View mVictimContainer;
     View mVictim1;
     View mVictim2;

@@ -22,12 +22,13 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 
 /**
  * A simple layout which demonstrates stretching a view to fill the space between two other views.
  */
-public class RelativeLayout1 extends Activity {
+public class RelativeLayout1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

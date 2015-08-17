@@ -20,6 +20,7 @@ package com.example.android.apis.animation;
 // class is in a sub-package.
 import com.example.android.apis.R;
 
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import android.app.Activity;
@@ -31,7 +32,7 @@ import android.widget.GridLayout;
  * This application demonstrates how to use the animateLayoutChanges tag in XML to automate
  * transition animations as items are removed from or added to a container.
  */
-public class LayoutAnimationsByDefault extends Activity {
+public class LayoutAnimationsByDefault extends AppCompatActivity {
 
     private int numButtons = 1;
 

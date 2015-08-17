@@ -20,12 +20,13 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 
 /**
  * Baseline alignment in LinearLayout.
  */
-public class Baseline1 extends Activity {
+public class Baseline1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

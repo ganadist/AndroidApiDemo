@@ -31,6 +31,7 @@ import android.opengl.ETC1Util;
 import android.opengl.GLES10;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.example.android.apis.R;
@@ -42,7 +43,7 @@ import com.example.android.apis.R;
  * textures created on the fly by compressing images.
  *
  */
-public class CompressedTextureActivity extends Activity {
+public class CompressedTextureActivity extends AppCompatActivity {
     private final static String TAG = "CompressedTextureActivity";
     /**
      * Choose between creating a compressed texture on the fly or

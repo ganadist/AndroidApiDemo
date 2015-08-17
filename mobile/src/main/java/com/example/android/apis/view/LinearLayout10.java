@@ -22,13 +22,14 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 
 /**
  * Demonstrates the use of LinearLayout backgrounds to group labels,
  * EditTexts, and buttons,
  */
-public class LinearLayout10 extends Activity {
+public class LinearLayout10 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

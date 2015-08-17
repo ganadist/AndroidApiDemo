@@ -21,10 +21,12 @@ import android.os.Bundle;
 import android.widget.TabHost;
 import android.content.Intent;
 
+import com.example.android.apis.AppCompatTabActivity;
+
 /**
  * An example of tab content that launches an activity via {@link android.widget.TabHost.TabSpec#setContent(android.content.Intent)}
  */
-public class Tabs3 extends TabActivity {
+public class Tabs3 extends AppCompatTabActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

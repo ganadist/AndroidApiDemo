@@ -27,6 +27,8 @@ import android.widget.TextView;
 import android.widget.ImageView;
 import android.graphics.BitmapFactory;
 import android.graphics.Bitmap;
+
+import com.example.android.apis.AppCompatListActivity;
 import com.example.android.apis.R;
 
 /**
@@ -41,7 +43,7 @@ import com.example.android.apis.R;
  * getView(). This data structures contains references to the views we want to bind data to, thus
  * avoiding calls to findViewById() every time getView() is invoked.
  */
-public class List14 extends ListActivity {
+public class List14 extends AppCompatListActivity {
 
     private static class EfficientAdapter extends BaseAdapter {
         private LayoutInflater mInflater;

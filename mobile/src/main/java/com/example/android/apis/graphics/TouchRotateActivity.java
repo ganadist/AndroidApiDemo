@@ -23,6 +23,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 
 /**
@@ -32,7 +33,7 @@ import android.view.MotionEvent;
  * Shows:
  * + How to redraw in response to user input.
  */
-public class TouchRotateActivity extends Activity {
+public class TouchRotateActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

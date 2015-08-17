@@ -20,6 +20,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -29,7 +30,7 @@ import com.example.android.apis.R;
  * This is the entry activity for a sample that demonstrates how to implement an
  * {@link android.accessibilityservice.AccessibilityService}.
  */
-public class ClockBackActivity extends Activity {
+public class ClockBackActivity extends AppCompatActivity {
 
     /** An intent for launching the system settings. */
     private static final Intent sSettingsIntent =

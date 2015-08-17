@@ -18,6 +18,7 @@ package com.example.android.apis.view;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.Toast;
@@ -27,7 +28,7 @@ import com.example.android.apis.R;
 /**
  * Demonstrates the use of the toggle switch widget.
  */
-public class Switches extends Activity implements CompoundButton.OnCheckedChangeListener {
+public class Switches extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

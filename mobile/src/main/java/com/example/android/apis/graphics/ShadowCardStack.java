@@ -21,6 +21,7 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
@@ -28,7 +29,7 @@ import com.example.android.apis.R;
 
 import java.util.ArrayList;
 
-public class ShadowCardStack extends Activity {
+public class ShadowCardStack extends AppCompatActivity {
 
     private static final float X_SHIFT_DP = 1000;
     private static final float Y_SHIFT_DP = 50;

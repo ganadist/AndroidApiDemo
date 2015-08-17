@@ -20,11 +20,12 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * A form, showing use of the GridLayout API from XML.
  */
-public class GridLayout2 extends Activity {
+public class GridLayout2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.grid_layout_2);

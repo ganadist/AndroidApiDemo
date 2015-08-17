@@ -27,6 +27,7 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.ScrollView;
@@ -40,7 +41,7 @@ import android.util.Log;
  * This activity demonstrates various ways density can cause the scaling of
  * bitmaps and drawables.
  */
-public class DensityActivity extends Activity {
+public class DensityActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

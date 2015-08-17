@@ -26,6 +26,7 @@ import android.content.IntentFilter.MalformedMimeTypeException;
 import android.nfc.NfcAdapter;
 import android.nfc.tech.NfcF;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 
@@ -33,7 +34,7 @@ import android.widget.TextView;
  * An example of how to use the NFC foreground dispatch APIs. This will intercept any MIME data
  * based NDEF dispatch as well as all dispatched for NfcF tags.
  */
-public class ForegroundDispatch extends Activity {
+public class ForegroundDispatch extends AppCompatActivity {
     private NfcAdapter mAdapter;
     private PendingIntent mPendingIntent;
     private IntentFilter[] mFilters;

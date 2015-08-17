@@ -20,6 +20,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.View;
 import android.widget.Button;
@@ -28,7 +29,7 @@ import android.widget.Button;
 /**
  * Demonstrates how to use an indeterminate progress indicator in the window's title bar.
  */
-public class ProgressBar4 extends Activity {
+public class ProgressBar4 extends AppCompatActivity {
     private boolean mToggleIndeterminate = false;
 
     @Override

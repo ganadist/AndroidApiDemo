@@ -19,6 +19,7 @@ package com.example.android.apis.view;
 import com.example.android.apis.R;
 
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TableLayout;
 import android.widget.Button;
 import android.widget.TableRow;
@@ -28,7 +29,7 @@ import android.view.Gravity;
 import android.view.View;
 
 
-public class TableLayout8 extends Activity {
+public class TableLayout8 extends AppCompatActivity {
     private boolean mStretch;
 
     @Override

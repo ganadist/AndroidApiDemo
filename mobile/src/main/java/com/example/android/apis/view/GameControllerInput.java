@@ -23,6 +23,7 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.hardware.input.InputManager;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.util.SparseArray;
 import android.util.SparseIntArray;
@@ -53,8 +54,7 @@ import java.util.List;
  * The game controller is also uses to control a very simple game.  See {@link GameView}
  * for the game itself.
  */
-public class GameControllerInput extends Activity
-        implements InputManager.InputDeviceListener {
+public class GameControllerInput extends AppCompatActivity implements InputManager.InputDeviceListener {
     private static final String TAG = "GameControllerInput";
 
     private InputManager mInputManager;

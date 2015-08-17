@@ -28,6 +28,7 @@ import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -39,7 +40,7 @@ import android.widget.ImageView;
  * <p>This demonstrates the how to write an activity that gets the current system wallpaper,
  * modifies it and sets the modified bitmap as system wallpaper.</p>
  */
-public class SetWallpaperActivity extends Activity {
+public class SetWallpaperActivity extends AppCompatActivity {
     final static private int[] mColors =
             {Color.BLUE, Color.GREEN, Color.RED, Color.LTGRAY, Color.MAGENTA, Color.CYAN,
                     Color.YELLOW, Color.WHITE};

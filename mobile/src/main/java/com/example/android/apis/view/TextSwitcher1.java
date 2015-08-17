@@ -20,6 +20,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.View;
 import android.view.animation.Animation;
@@ -32,7 +33,7 @@ import android.widget.ViewSwitcher;
 /**
  * Uses a TextSwitcher.
  */
-public class TextSwitcher1 extends Activity implements ViewSwitcher.ViewFactory,
+public class TextSwitcher1 extends AppCompatActivity implements ViewSwitcher.ViewFactory,
         View.OnClickListener {
 
     private TextSwitcher mSwitcher;

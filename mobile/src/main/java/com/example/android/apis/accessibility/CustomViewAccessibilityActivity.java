@@ -22,6 +22,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Layout;
 import android.text.StaticLayout;
 import android.text.TextPaint;
@@ -48,7 +49,7 @@ import com.example.android.apis.R;
  * disabled users can leverage it.
  * </p>
  */
-public class CustomViewAccessibilityActivity extends Activity {
+public class CustomViewAccessibilityActivity extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

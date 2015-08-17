@@ -16,6 +16,7 @@
 
 package com.example.android.apis.view;
 
+import com.example.android.apis.AppCompatTabActivity;
 import com.example.android.apis.R;
 
 import android.app.TabActivity;
@@ -27,7 +28,7 @@ import android.widget.TextView;
 /**
  * Uses a right gravity for the TabWidget.
  */
-public class Tabs6 extends TabActivity implements TabHost.TabContentFactory {
+public class Tabs6 extends AppCompatTabActivity implements TabHost.TabContentFactory {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

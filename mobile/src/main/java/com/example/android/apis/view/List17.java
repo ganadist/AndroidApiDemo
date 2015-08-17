@@ -22,12 +22,14 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.example.android.apis.AppCompatListActivity;
+
 
 /**
  * A list view where the last item the user clicked is placed in
  * the "activated" state, causing its background to highlight.
  */
-public class List17 extends ListActivity {
+public class List17 extends AppCompatListActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

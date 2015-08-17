@@ -23,6 +23,7 @@ import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.app.Dialog;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -39,7 +40,7 @@ import java.util.Calendar;
  * {@link Activity#onPrepareDialog} and {@link Activity#showDialog} to have the
  * activity automatically save and restore the state of the dialogs.
  */
-public class DateWidgets1 extends Activity {
+public class DateWidgets1 extends AppCompatActivity {
 
     // where we display the selected date and time
     private TextView mDateDisplay;

@@ -16,6 +16,7 @@
 
 package com.example.android.apis.preference;
 
+import com.example.android.apis.AppCompatPreferenceActivity;
 import com.example.android.apis.R;
 
 import android.content.Intent;
@@ -30,7 +31,7 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
 
-public class PreferencesFromCode extends PreferenceActivity {
+public class PreferencesFromCode extends AppCompatPreferenceActivity {
 
     private static final String PARENT_CHECKBOX_PREFERENCE = "parent_checkbox_preference";
 

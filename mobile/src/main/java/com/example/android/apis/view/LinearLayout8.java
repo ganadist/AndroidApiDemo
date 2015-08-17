@@ -22,6 +22,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.Gravity;
 import android.view.MenuItem;
@@ -31,7 +32,7 @@ import android.widget.LinearLayout;
 /**
  * Demonstrates horizontal and vertical gravity
  */
-public class LinearLayout8 extends Activity {
+public class LinearLayout8 extends AppCompatActivity {
 
     private LinearLayout mLinearLayout;
 

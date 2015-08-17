@@ -18,6 +18,7 @@ package com.example.android.apis.view;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
@@ -27,7 +28,7 @@ import com.example.android.apis.R;
 /**
  * Demonstrates how to use a seek bar
  */
-public class SeekBar1 extends Activity implements SeekBar.OnSeekBarChangeListener {
+public class SeekBar1 extends AppCompatActivity implements SeekBar.OnSeekBarChangeListener {
     
     SeekBar mSeekBar;
     TextView mProgressText;

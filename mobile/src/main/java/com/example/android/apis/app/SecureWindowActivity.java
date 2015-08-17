@@ -20,6 +20,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 
 /**
@@ -47,7 +48,7 @@ import android.view.WindowManager;
  * </ul>
  * </p>
  */
-public class SecureWindowActivity extends Activity {
+public class SecureWindowActivity extends AppCompatActivity {
     /**
      * Initialization of the Activity after it is first created.  Must at least
      * call {@link android.app.Activity#setContentView setContentView()} to

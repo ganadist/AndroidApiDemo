@@ -26,6 +26,7 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.Keyframe;
 import android.animation.LayoutTransition;
 import android.animation.PropertyValuesHolder;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
@@ -39,7 +40,7 @@ import android.widget.Button;
  * This application demonstrates how to use LayoutTransition to automate transition animations
  * as items are removed from or added to a container.
  */
-public class LayoutAnimations extends Activity {
+public class LayoutAnimations extends AppCompatActivity {
 
     private int numButtons = 1;
     ViewGroup container = null;

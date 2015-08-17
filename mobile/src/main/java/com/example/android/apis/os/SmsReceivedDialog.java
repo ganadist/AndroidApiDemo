@@ -26,11 +26,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.example.android.apis.R;
 
-public class SmsReceivedDialog extends Activity implements OnInitListener {
+public class SmsReceivedDialog extends AppCompatActivity implements OnInitListener {
     private static final String TAG = "SmsReceivedDialog";
 
     private static final int DIALOG_SHOW_MESSAGE = 1;

@@ -23,6 +23,7 @@ import android.app.SearchManager;
 import android.app.SearchableInfo;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -39,7 +40,7 @@ import java.util.List;
  * This demonstrates the usage of SearchView in an ActionBar as a menu item.
  * It sets a SearchableInfo on the SearchView for suggestions and submitting queries to.
  */
-public class SearchViewActionBar extends Activity implements SearchView.OnQueryTextListener {
+public class SearchViewActionBar extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
     private SearchView mSearchView;
     private TextView mStatusView;

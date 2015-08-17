@@ -19,6 +19,7 @@ package com.example.android.apis.animation;
 // Need the following import to get access to the app resources, since this
 // class is in a sub-package.
 import android.animation.*;
+import android.support.v7.app.AppCompatActivity;
 import android.view.animation.AccelerateInterpolator;
 import com.example.android.apis.R;
 
@@ -43,7 +44,7 @@ import android.widget.LinearLayout;
  * UI allows you to set the position of the animation. Pressing the Run button will play from
  * the current position of the animation.
  */
-public class MultiPropertyAnimation extends Activity {
+public class MultiPropertyAnimation extends AppCompatActivity {
 
     private static final int DURATION = 1500;
 

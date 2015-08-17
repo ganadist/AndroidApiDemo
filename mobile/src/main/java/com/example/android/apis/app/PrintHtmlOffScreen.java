@@ -30,6 +30,8 @@ import android.view.MenuItem;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import android.support.v7.app.AppCompatActivity;
+
 import com.example.android.apis.R;
 
 /**
@@ -44,7 +46,7 @@ import com.example.android.apis.R;
  * @see PrintManager
  * @see WebView
  */
-public class PrintHtmlOffScreen extends Activity {
+public class PrintHtmlOffScreen extends AppCompatActivity {
 
     private WebView mWebView;
 

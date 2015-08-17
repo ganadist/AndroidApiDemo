@@ -18,6 +18,7 @@ package com.example.android.apis.animation;
 
 // Need the following import to get access to the app resources, since this
 // class is in a sub-package.
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import com.example.android.apis.R;
 
@@ -39,7 +40,7 @@ import android.widget.LinearLayout;
 import java.util.ArrayList;
 
 
-public class AnimationCloning extends Activity {
+public class AnimationCloning extends AppCompatActivity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {

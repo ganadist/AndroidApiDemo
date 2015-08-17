@@ -21,8 +21,9 @@ import javax.microedition.khronos.opengles.GL;
 import android.app.Activity;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-public class SpriteTextActivity extends Activity {
+public class SpriteTextActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

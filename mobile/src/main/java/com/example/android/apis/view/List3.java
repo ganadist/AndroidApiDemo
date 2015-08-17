@@ -24,13 +24,15 @@ import android.view.View;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
- /**
+import com.example.android.apis.AppCompatListActivity;
+
+/**
  * A list view example where the
  * data comes from a cursor, and a
  * SimpleCursorListAdapter is used to map each item to a two-line
  * display.
  */
-public class List3 extends ListActivity {
+public class List3 extends AppCompatListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

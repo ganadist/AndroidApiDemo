@@ -21,6 +21,7 @@ import com.example.android.apis.R;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -31,7 +32,7 @@ import android.widget.ImageView;
  * A grid that displays a set of framed photos.
  *
  */
-public class Grid2 extends Activity {
+public class Grid2 extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

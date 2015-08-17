@@ -29,6 +29,7 @@ import android.database.Cursor;
 import android.database.CursorWrapper;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -41,7 +42,7 @@ import android.widget.Toast;
 /**
  * Demonstrates selecting contacts that have changed since a certain time.
  */
-public class ChangedContacts extends Activity implements LoaderManager.LoaderCallbacks<Cursor> {
+public class ChangedContacts extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 
     private static final String CLASS = ChangedContacts.class.getSimpleName();
 

@@ -16,6 +16,7 @@
 
 package com.example.android.apis.view;
 
+import com.example.android.apis.AppCompatTabActivity;
 import com.example.android.apis.R;
 
 import android.app.TabActivity;
@@ -27,7 +28,7 @@ import android.widget.TextView;
 /**
  * Demonstrates the Tab scrolling when too many tabs are displayed to fit in the screen.
  */
-public class Tabs5 extends TabActivity implements TabHost.TabContentFactory {
+public class Tabs5 extends AppCompatTabActivity implements TabHost.TabContentFactory {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

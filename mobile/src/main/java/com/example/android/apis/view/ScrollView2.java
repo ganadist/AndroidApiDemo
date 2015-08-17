@@ -20,6 +20,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Button;
@@ -28,7 +29,7 @@ import android.widget.Button;
  * Demonstrates wrapping a layout in a ScrollView.
  *
  */
-public class ScrollView2 extends Activity {
+public class ScrollView2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

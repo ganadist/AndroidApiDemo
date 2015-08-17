@@ -22,11 +22,12 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
-public class Animation1 extends Activity implements View.OnClickListener {
+public class Animation1 extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

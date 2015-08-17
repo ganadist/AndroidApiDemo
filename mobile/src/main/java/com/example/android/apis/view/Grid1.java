@@ -20,6 +20,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -33,7 +34,7 @@ import java.util.List;
 import com.example.android.apis.R;
 
 
-public class Grid1 extends Activity {
+public class Grid1 extends AppCompatActivity {
 
     GridView mGrid;
 

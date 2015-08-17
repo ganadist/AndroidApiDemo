@@ -25,6 +25,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Menu;
@@ -49,7 +50,7 @@ import com.example.android.apis.R;
  * when the user isn't interacting with the screen to achieve full screen
  * video playback).
  */
-public class VideoPlayerActivity extends Activity
+public class VideoPlayerActivity extends AppCompatActivity
         implements OnQueryTextListener, ActionBar.TabListener {
 
     /**

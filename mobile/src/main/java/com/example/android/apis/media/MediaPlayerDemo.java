@@ -20,11 +20,12 @@ import com.example.android.apis.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class MediaPlayerDemo extends Activity {
+public class MediaPlayerDemo extends AppCompatActivity {
     private Button mlocalvideo;
     private Button mresourcesvideo;
     private Button mstreamvideo;

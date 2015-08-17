@@ -22,13 +22,14 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 
 /**
  * Demonstration of styled text resources.
  */
-public class StyledText extends Activity
+public class StyledText extends AppCompatActivity
 {
     @Override
 	protected void onCreate(Bundle savedInstanceState)

@@ -22,6 +22,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
@@ -30,7 +31,7 @@ import android.widget.Spinner;
 import android.widget.ViewFlipper;
 
 
-public class Animation2 extends Activity implements
+public class Animation2 extends AppCompatActivity implements
         AdapterView.OnItemSelectedListener {
 
     @Override

@@ -35,6 +35,7 @@ import android.graphics.Shader;
 import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.OvalShape;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.BounceInterpolator;
 import android.widget.Button;
@@ -46,7 +47,7 @@ import android.widget.SeekBar;
  * UI allows you to set the position of the animation. Pressing the Run button will play from
  * the current position of the animation.
  */
-public class AnimationSeeking extends Activity {
+public class AnimationSeeking extends AppCompatActivity {
 
     private static final int DURATION = 1500;
     private SeekBar mSeekBar;

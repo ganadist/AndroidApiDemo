@@ -23,6 +23,7 @@ import android.hardware.Camera;
 import android.hardware.Camera.CameraInfo;
 import android.hardware.Camera.Size;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -43,7 +44,7 @@ import com.example.android.apis.R;
 
 // ----------------------------------------------------------------------
 
-public class CameraPreview extends Activity {
+public class CameraPreview extends AppCompatActivity {
     private Preview mPreview;
     Camera mCamera;
     int numberOfCameras;
@@ -56,8 +57,6 @@ public class CameraPreview extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Hide the window title.
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         // Create a RelativeLayout container that will hold a SurfaceView,

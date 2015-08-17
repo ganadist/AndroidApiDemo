@@ -18,6 +18,7 @@ package com.example.android.apis.view;
 
 // Need the following import to get access to the app resources, since this
 // class is in a sub-package.
+import com.example.android.apis.AppCompatListActivity;
 import com.example.android.apis.R;
 
 
@@ -35,7 +36,7 @@ import android.widget.TextView;
 /**
  * A list view example where the data comes from a cursor.
  */
-public class List7 extends ListActivity implements OnItemSelectedListener {
+public class List7 extends AppCompatListActivity implements OnItemSelectedListener {
 
     private TextView mPhone;
 

@@ -20,6 +20,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.Window;
 import android.widget.ArrayAdapter;
@@ -30,7 +31,7 @@ import android.widget.SearchView;
 /**
  * Shows a list that can be filtered in-place with a SearchView in non-iconified mode.
  */
-public class SearchViewFilterMode extends Activity implements SearchView.OnQueryTextListener {
+public class SearchViewFilterMode extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
     private static final String TAG = "SearchViewFilterMode";
 

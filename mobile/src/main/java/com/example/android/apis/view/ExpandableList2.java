@@ -28,10 +28,12 @@ import android.provider.ContactsContract.Contacts;
 import android.widget.CursorTreeAdapter;
 import android.widget.SimpleCursorTreeAdapter;
 
+import com.example.android.apis.AppCompatExpandableListActivity;
+
 /**
  * Demonstrates expandable lists backed by Cursors
  */
-public class ExpandableList2 extends ExpandableListActivity {
+public class ExpandableList2 extends AppCompatExpandableListActivity {
 
     private static final String[] CONTACTS_PROJECTION = new String[] {
         Contacts._ID,

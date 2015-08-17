@@ -22,6 +22,7 @@ import com.example.android.apis.graphics.CubeRenderer;
 import android.app.Activity;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.SurfaceView;
 import android.view.WindowManager;
 
@@ -50,7 +51,7 @@ import android.view.WindowManager;
  * </ul>
  * </p>
  */
-public class SecureSurfaceViewActivity extends Activity {
+public class SecureSurfaceViewActivity extends AppCompatActivity {
     private GLSurfaceView mSurfaceView;
 
     /**

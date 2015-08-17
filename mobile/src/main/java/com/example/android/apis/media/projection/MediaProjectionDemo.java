@@ -27,6 +27,7 @@ import android.hardware.display.VirtualDisplay;
 import android.media.projection.MediaProjection;
 import android.media.projection.MediaProjectionManager;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Surface;
@@ -43,7 +44,7 @@ import android.widget.ToggleButton;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MediaProjectionDemo extends Activity {
+public class MediaProjectionDemo extends AppCompatActivity {
     private static final String TAG = "MediaProjectionDemo";
     private static final int PERMISSION_CODE = 1;
     private static final List<Resolution> RESOLUTIONS = new ArrayList<Resolution>() {{

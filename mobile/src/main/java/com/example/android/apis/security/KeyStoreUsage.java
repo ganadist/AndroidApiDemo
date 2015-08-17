@@ -24,6 +24,7 @@ import android.database.DataSetObserver;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.security.KeyPairGeneratorSpec;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
@@ -62,7 +63,7 @@ import java.util.List;
 
 import javax.security.auth.x500.X500Principal;
 
-public class KeyStoreUsage extends Activity {
+public class KeyStoreUsage extends AppCompatActivity {
     private static final String TAG = "AndroidKeyStoreUsage";
 
     /**

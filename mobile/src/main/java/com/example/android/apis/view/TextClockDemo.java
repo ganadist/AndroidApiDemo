@@ -18,6 +18,7 @@ package com.example.android.apis.view;
 
 // Need the following import to get access to the app resources, since this
 // class is in a sub-package.
+import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.widget.TextClock;
 import com.example.android.apis.R;
@@ -28,7 +29,7 @@ import android.os.Bundle;
 /**
  * Variants of {@link TextClock}.
  */
-public class TextClockDemo extends Activity {
+public class TextClockDemo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

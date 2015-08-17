@@ -30,6 +30,7 @@ import android.graphics.drawable.shapes.RectShape;
 import android.graphics.drawable.shapes.RoundRectShape;
 import android.graphics.drawable.shapes.Shape;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
@@ -41,7 +42,7 @@ import com.example.android.apis.R;
 
 import java.util.ArrayList;
 
-public class ShadowCardDrag extends Activity {
+public class ShadowCardDrag extends AppCompatActivity {
     private static final float MAX_Z_DP = 10;
     private static final float MOMENTUM_SCALE = 10;
     private static final int MAX_ANGLE = 10;

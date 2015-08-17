@@ -22,6 +22,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * <h3>Wallpaper Activity</h3>
@@ -29,7 +30,7 @@ import android.os.Bundle;
  * <p>This demonstrates the how to write an activity that has the system
  * wallpaper behind it.</p>
  */
-public class WallpaperActivity extends Activity {
+public class WallpaperActivity extends AppCompatActivity {
     /**
      * Initialization of the Activity after it is first created.  Must at least
      * call {@link android.app.Activity#setContentView setContentView()} to

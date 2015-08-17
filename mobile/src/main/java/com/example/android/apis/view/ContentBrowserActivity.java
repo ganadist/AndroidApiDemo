@@ -25,6 +25,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Menu;
@@ -48,8 +49,7 @@ import com.example.android.apis.R;
  * This activity demonstrates how to use system UI flags to implement
  * a content browser style of UI (such as a book reader).
  */
-public class ContentBrowserActivity extends Activity
-        implements OnQueryTextListener, ActionBar.TabListener {
+public class ContentBrowserActivity extends AppCompatActivity implements OnQueryTextListener, ActionBar.TabListener {
 
     /**
      * Implementation of a view for displaying immersive content, using system UI

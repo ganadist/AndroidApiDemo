@@ -22,12 +22,13 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 
 /**
  * A simple linear layout that fills the screen vertically, and the middle child is padded with extra space.
  */
-public class LinearLayout3 extends Activity {
+public class LinearLayout3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

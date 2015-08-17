@@ -23,13 +23,14 @@ import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
 /**
  *
  */
-public class ActivityTransitionDetails extends Activity {
+public class ActivityTransitionDetails extends AppCompatActivity {
 
     private static final String TAG = "ActivityTransitionDetails";
 

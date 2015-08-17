@@ -20,11 +20,12 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * <p>This example shows how to use cell spanning in a table layout.</p>
  */
-public class TableLayout12 extends Activity {
+public class TableLayout12 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

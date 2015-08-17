@@ -19,8 +19,9 @@ package com.example.android.apis.graphics;
 import android.app.Activity;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-public class TriangleActivity extends Activity {
+public class TriangleActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

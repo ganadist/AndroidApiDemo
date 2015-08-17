@@ -28,6 +28,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * Wrapper activity demonstrating the use of the new
@@ -39,7 +40,7 @@ import android.os.Bundle;
  * @see SensorManager
  * 
  */
-public class RotationVectorDemo extends Activity {
+public class RotationVectorDemo extends AppCompatActivity {
     private GLSurfaceView mGLSurfaceView;
     private SensorManager mSensorManager;
     private MyRenderer mRenderer;

@@ -19,13 +19,14 @@ package com.example.android.apis.media;
 import android.app.Activity;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.android.apis.R;
 
-public class MediaPlayerDemo_Audio extends Activity {
+public class MediaPlayerDemo_Audio extends AppCompatActivity {
 
     private static final String TAG = "MediaPlayerDemo";
     private MediaPlayer mMediaPlayer;

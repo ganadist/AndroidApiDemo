@@ -20,6 +20,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 
 
@@ -28,7 +29,7 @@ import android.view.Window;
  * window's title bar. The widgets show the 3 different sizes of circular
  * progress bars that can be used.
  */
-public class ProgressBar2 extends Activity {
+public class ProgressBar2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

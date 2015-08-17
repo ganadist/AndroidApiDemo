@@ -16,6 +16,7 @@
 
 package com.example.android.apis.view;
 
+import com.example.android.apis.AppCompatListActivity;
 import com.example.android.apis.R;
 
 import android.app.ListActivity;
@@ -36,7 +37,7 @@ import java.util.ArrayList;
  * A list view that demonstrates the use of setEmptyView. This example alos uses
  * a custom layout file that adds some extra buttons to the screen.
  */
-public class List8 extends ListActivity {
+public class List8 extends AppCompatListActivity {
 
     PhotoAdapter mAdapter;
 

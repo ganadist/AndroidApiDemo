@@ -19,11 +19,12 @@ package com.example.android.apis.graphics;
 import android.app.Activity;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * This sample shows how to implement a Matrix Palette
  */
-public class MatrixPaletteActivity extends Activity {
+public class MatrixPaletteActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

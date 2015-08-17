@@ -31,6 +31,7 @@ import android.media.audiofx.Equalizer;
 import android.media.audiofx.Visualizer;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
@@ -41,7 +42,7 @@ import android.widget.TextView;
 
 import java.io.IOException;
 
-public class AudioFxDemo extends Activity {
+public class AudioFxDemo extends AppCompatActivity {
     private static final String TAG = "AudioFxDemo";
 
     private static final float VISUALIZER_HEIGHT_DIP = 50f;

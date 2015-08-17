@@ -27,6 +27,8 @@ import android.webkit.WebViewClient;
 
 import com.example.android.apis.R;
 
+import android.support.v7.app.AppCompatActivity;
+
 /**
  * This class demonstrates how to implement HTML content printing
  * from a {@link WebView} which is shown on the screen.
@@ -39,7 +41,7 @@ import com.example.android.apis.R;
  * @see PrintManager
  * @see WebView
  */
-public class PrintHtmlFromScreen extends Activity {
+public class PrintHtmlFromScreen extends AppCompatActivity {
 
     private WebView mWebView;
 

@@ -19,6 +19,7 @@ package com.example.android.apis.content;
 import android.app.Activity;
 //import android.content.UndoManager;
 import android.os.Parcelable;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import com.example.android.apis.R;
@@ -29,7 +30,7 @@ import android.widget.TextView;
 /**
  * Simple example of using an UndoManager for editing text in a TextView.
  */
-public class TextUndoActivity extends Activity {
+public class TextUndoActivity extends AppCompatActivity {
     //UndoManager mUndoManager;
 
     @Override

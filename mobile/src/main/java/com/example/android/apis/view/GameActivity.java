@@ -25,6 +25,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Menu;
@@ -48,7 +49,7 @@ import com.example.android.apis.graphics.TouchPaint;
  * This activity demonstrates how to use the system UI flags to
  * implement an immersive game.
  */
-public class GameActivity extends Activity {
+public class GameActivity extends AppCompatActivity {
 
     /**
      * Implementation of a view for the game, filling the entire screen.

@@ -22,9 +22,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.nfc.NfcAdapter;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-public class TechFilter extends Activity {
+public class TechFilter extends AppCompatActivity {
     private TextView mText;
     private int mCount = 0;
 

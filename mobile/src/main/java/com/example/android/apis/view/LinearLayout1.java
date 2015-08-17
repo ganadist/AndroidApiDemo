@@ -22,12 +22,13 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 
 /**
  * A simple linear layout where the height of the layout is the sum of its children.
  */
-public class LinearLayout1 extends Activity {
+public class LinearLayout1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

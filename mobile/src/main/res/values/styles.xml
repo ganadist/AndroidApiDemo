@@ -26,7 +26,7 @@
          selected when the holographic theme is available, or look at
          values-XX/styles.xml for a variation that is selected when the material
          theme is available. -->
-    <style name="ThemeCurrent" parent="android:Theme" />
+    <style name="ThemeCurrent" parent="Theme.AppCompat" />
 
     <!-- This is a theme that reflects the default theme used when no theme is
          specified by an application or activity. In API 14 and above, this
@@ -39,14 +39,23 @@
          selected when the holographic theme is available, or look at
          values-XX/styles.xml for a variation that is selected when the material
          theme is available. -->
-    <style name="ThemeCurrentDialog" parent="android:Theme.Dialog" />
+    <style name="ThemeCurrentDialog" parent="Theme.AppCompat.Dialog" />
 
     <!-- Older platforms don't have Theme.Holo.DialogWhenLarge; we will define
          our own wrapper theme that uses it only when running on the appropriate
          platform version.  On older platforms, we always use the generic
          fullscreen theme, because they don't support some feature that help
          in correctly laying out an activity as a dialog. -->
-    <style name="ThemeCurrentDialogWhenLarge" parent="android:style/Theme" />
+    <style name="ThemeDialogWhenLarge" parent="Theme.AppCompat.DialogWhenLarge" />
+    <style name="ThemeCurrentDialogWhenLarge" parent="ThemeDialogWhenLarge" />
+    <style name="ThemeCurrent.Light" parent="Theme.AppCompat.Light" />
+    <style name="ThemeCurrent.NoActionBar" parent="Theme.AppCompat.NoActionBar" />
+    <style name="ThemeCurrent.NoTitleBar" parent="Theme.AppCompat.NoActionBar" />
+    <style name="ThemeCurrent.Light.DarkActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+      <item name="android:windowActionBarOverlay">true</item>
+      <!-- Support library compatibility -->
+      <item name="windowActionBarOverlay">true</item>
+    </style>
 
     <!-- Base application theme is the default theme. -->
     <style name="Theme" parent="android:Theme" />
@@ -120,7 +129,7 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="ActivityTransitionTheme" parent="android:Theme.Material">
+    <style name="ActivityTransitionTheme" parent="Theme.AppCompat.Light">
 	<item name="android:windowEnterTransition">@transition/explode</item>
 	<item name="android:windowExitTransition">@transition/explode</item>
 	<item name="android:windowSharedElementEnterTransition">@transition/move_image</item>

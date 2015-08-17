@@ -20,11 +20,12 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.DragEvent;
 import android.view.View;
 import android.widget.TextView;
 
-public class DragAndDropDemo extends Activity {
+public class DragAndDropDemo extends AppCompatActivity {
     TextView mResultText;
     DraggableDot mHiddenDot;
 

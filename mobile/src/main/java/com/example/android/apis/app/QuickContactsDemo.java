@@ -16,6 +16,7 @@
 
 package com.example.android.apis.app;
 
+import com.example.android.apis.AppCompatListActivity;
 import com.example.android.apis.R;
 
 import android.app.ListActivity;
@@ -30,7 +31,7 @@ import android.widget.QuickContactBadge;
 import android.widget.ResourceCursorAdapter;
 import android.widget.TextView;
 
-public class QuickContactsDemo extends ListActivity {
+public class QuickContactsDemo extends AppCompatListActivity {
     static final String[] CONTACTS_SUMMARY_PROJECTION = new String[] {
             Contacts._ID, // 0
             Contacts.DISPLAY_NAME, // 1

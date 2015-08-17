@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
@@ -13,7 +14,7 @@ import android.view.SurfaceHolder;
  * Demonstrates how to take over the Surface from a window to do direct
  * drawing to it (without going through the view hierarchy).
  */
-public class WindowSurface extends Activity implements SurfaceHolder.Callback2 {
+public class WindowSurface extends AppCompatActivity implements SurfaceHolder.Callback2 {
     DrawingThread mDrawingThread;
     
     @Override

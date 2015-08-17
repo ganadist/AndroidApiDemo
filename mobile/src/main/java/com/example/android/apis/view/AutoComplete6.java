@@ -19,11 +19,12 @@ package com.example.android.apis.view;
 import com.example.android.apis.R;
 
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 import android.widget.MultiAutoCompleteTextView;
 import android.os.Bundle;
 
-public class AutoComplete6 extends Activity {
+public class AutoComplete6 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

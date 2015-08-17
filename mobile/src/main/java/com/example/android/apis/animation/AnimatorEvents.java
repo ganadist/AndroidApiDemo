@@ -20,6 +20,7 @@ package com.example.android.apis.animation;
 // class is in a sub-package.
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.CheckBox;
 import android.widget.TextView;
 import com.example.android.apis.R;
@@ -45,7 +46,7 @@ import android.widget.LinearLayout;
 /**
  * This demo shows how the AnimatorListener events work.
  */
-public class AnimatorEvents extends Activity {
+public class AnimatorEvents extends AppCompatActivity {
 
     TextView startText, repeatText, cancelText, endText;
     TextView startTextAnimator, repeatTextAnimator, cancelTextAnimator, endTextAnimator;

@@ -22,6 +22,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.SeekBar;
 
@@ -30,7 +31,7 @@ import android.widget.SeekBar;
  * translating them, and rotating them (in 2D and 3D). Use the seek bars to set the various
  * transform properties of the button.
  */
-public class RotatingButton extends Activity {
+public class RotatingButton extends AppCompatActivity {
 
     /** Called when the activity is first created. */
     @Override

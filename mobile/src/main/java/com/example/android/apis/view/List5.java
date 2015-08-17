@@ -27,11 +27,13 @@ import android.view.LayoutInflater;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.example.android.apis.AppCompatListActivity;
+
 
 /**
  * A list view example with separators.
  */
-public class List5 extends ListActivity {
+public class List5 extends AppCompatListActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

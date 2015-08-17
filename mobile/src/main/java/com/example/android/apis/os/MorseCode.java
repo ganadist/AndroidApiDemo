@@ -23,6 +23,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Vibrator;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 import com.example.android.apis.R;
@@ -47,7 +48,7 @@ OS / Morse Code Vibrator
  *         </tr>
  * </table> 
  */
-public class MorseCode extends Activity
+public class MorseCode extends AppCompatActivity
 {
     /** Our text view */
     private TextView mTextView;

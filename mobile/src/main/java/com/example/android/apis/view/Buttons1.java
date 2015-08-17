@@ -22,11 +22,12 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * A gallery of the different styles of buttons.
  */
-public class Buttons1 extends Activity {
+public class Buttons1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

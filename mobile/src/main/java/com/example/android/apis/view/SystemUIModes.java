@@ -24,6 +24,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.view.ActionMode;
@@ -49,7 +50,7 @@ import com.example.android.apis.R;
  * the system decor, in order to better focus the user's attention or use available screen real
  * estate on the task at hand.
  */
-public class SystemUIModes extends Activity
+public class SystemUIModes extends AppCompatActivity
         implements OnQueryTextListener, ActionBar.TabListener {
     public static class IV extends ImageView implements View.OnSystemUiVisibilityChangeListener {
         private SystemUIModes mActivity;

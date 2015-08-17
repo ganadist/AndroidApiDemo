@@ -23,9 +23,10 @@ import android.content.ContentResolver;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.provider.ContactsContract.Contacts;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.AutoCompleteTextView;
 
-public class AutoComplete5 extends Activity {
+public class AutoComplete5 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

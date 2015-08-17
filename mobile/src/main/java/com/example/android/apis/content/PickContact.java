@@ -30,6 +30,7 @@ import android.os.SystemClock;
 import android.os.Bundle;
 import android.provider.BaseColumns;
 import android.provider.ContactsContract;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -42,7 +43,7 @@ import java.util.Calendar;
  * require permission to read contacts, as that permission will be granted
  * when the selected contact is returned.
  */
-public class PickContact extends Activity {
+public class PickContact extends AppCompatActivity {
     Toast mToast;
     ResultDisplayer mPendingResult;
 

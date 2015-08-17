@@ -16,13 +16,14 @@
 
 package com.example.android.apis.preference;
 
+import com.example.android.apis.AppCompatPreferenceActivity;
 import com.example.android.apis.R;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 
-public class SwitchPreference extends PreferenceActivity {
+public class SwitchPreference extends AppCompatPreferenceActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

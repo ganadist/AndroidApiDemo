@@ -22,13 +22,14 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 
 /**
  * Builds building a simple form using a RelativeLayout
  * 
  */
-public class RelativeLayout2 extends Activity {
+public class RelativeLayout2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

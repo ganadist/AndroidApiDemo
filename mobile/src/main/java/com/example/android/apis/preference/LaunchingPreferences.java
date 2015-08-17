@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -33,7 +34,7 @@ import android.widget.LinearLayout.LayoutParams;
 /**
  * Demonstrates launching a PreferenceActivity and grabbing a value it saved.
  */
-public class LaunchingPreferences extends Activity implements OnClickListener {
+public class LaunchingPreferences extends AppCompatActivity implements OnClickListener {
 
     private static final int REQUEST_CODE_PREFERENCES = 1;
 

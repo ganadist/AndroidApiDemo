@@ -29,6 +29,7 @@ import android.media.MediaScannerConnection;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -46,7 +47,7 @@ import java.io.OutputStream;
 /**
 * Demonstration of styled text resources.
 */
-public class ExternalStorage extends Activity {
+public class ExternalStorage extends AppCompatActivity {
     ViewGroup mLayout;
 
     static class Item {

@@ -16,13 +16,14 @@
 
 package com.example.android.apis.view;
 
+import com.example.android.apis.AppCompatListActivity;
 import com.example.android.apis.R;
 
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 
-public class LayoutAnimation3 extends ListActivity {
+public class LayoutAnimation3 extends AppCompatListActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

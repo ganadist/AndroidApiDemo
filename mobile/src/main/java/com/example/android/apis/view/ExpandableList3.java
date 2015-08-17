@@ -21,16 +21,17 @@ import android.os.Bundle;
 import android.widget.ExpandableListAdapter;
 import android.widget.SimpleExpandableListAdapter;
 
+import com.example.android.apis.AppCompatExpandableListActivity;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
 /**
  * Demonstrates expandable lists backed by a Simple Map-based adapter
  */
-public class ExpandableList3 extends ExpandableListActivity {
+public class ExpandableList3 extends AppCompatExpandableListActivity {
     private static final String NAME = "NAME";
     private static final String IS_EVEN = "IS_EVEN";
     

@@ -18,6 +18,7 @@ package com.example.android.apis.view;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
@@ -26,7 +27,7 @@ import com.example.android.apis.R;
 /**
  * Demonstrates how to use a rating bar
  */
-public class RatingBar1 extends Activity implements RatingBar.OnRatingBarChangeListener {
+public class RatingBar1 extends AppCompatActivity implements RatingBar.OnRatingBarChangeListener {
     RatingBar mSmallRatingBar;
     RatingBar mIndicatorRatingBar;
     TextView mRatingText;

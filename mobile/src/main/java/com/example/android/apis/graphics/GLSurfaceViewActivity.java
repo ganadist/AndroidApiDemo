@@ -19,12 +19,13 @@ package com.example.android.apis.graphics;
 import android.app.Activity;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * Wrapper activity demonstrating the use of {@link GLSurfaceView}, a view
  * that uses OpenGL drawing into a dedicated surface.
  */
-public class GLSurfaceViewActivity extends Activity {
+public class GLSurfaceViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

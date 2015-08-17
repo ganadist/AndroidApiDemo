@@ -17,6 +17,7 @@ package com.example.android.apis.animation;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.transition.Scene;
@@ -30,7 +31,7 @@ import com.example.android.apis.R;
  * are loaded from resource files and transitions are run between those scenes
  * as well as a dynamically-configured scene.
  */
-public class Transitions extends Activity {
+public class Transitions extends AppCompatActivity {
 
     Scene mScene1, mScene2, mScene3;
     ViewGroup mSceneRoot;

@@ -15,6 +15,7 @@
  */
 package com.example.android.apis.view;
 
+import com.example.android.apis.AppCompatListActivity;
 import com.example.android.apis.R;
 
 import android.app.ListActivity;
@@ -32,7 +33,7 @@ import android.widget.Toast;
  * couple with the new simple_list_item_activated_1 which uses a highlighted border for selected
  * items.
  */
-public class List16 extends ListActivity {
+public class List16 extends AppCompatListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -18,6 +18,7 @@ package com.example.android.apis.view;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 
 import com.example.android.apis.R;
@@ -26,7 +27,7 @@ import com.example.android.apis.R;
 /**
  * Sample creating 1 webviews.
  */
-public class WebView1 extends Activity {
+public class WebView1 extends AppCompatActivity {
     
     @Override
     public void onCreate(Bundle icicle) {

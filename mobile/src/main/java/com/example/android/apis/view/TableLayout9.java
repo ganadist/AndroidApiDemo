@@ -19,13 +19,14 @@ package com.example.android.apis.view;
 import com.example.android.apis.R;
 
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TableLayout;
 import android.widget.Button;
 import android.os.Bundle;
 import android.view.View;
 
 
-public class TableLayout9 extends Activity {
+public class TableLayout9 extends AppCompatActivity {
     private boolean mShrink;
 
     @Override

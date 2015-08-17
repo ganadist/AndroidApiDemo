@@ -22,6 +22,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import java.io.IOException;
@@ -31,7 +32,7 @@ import java.io.InputStream;
 /**
  * Demonstration of styled text resources.
  */
-public class ReadAsset extends Activity
+public class ReadAsset extends AppCompatActivity
 {
     @Override
 	protected void onCreate(Bundle savedInstanceState)

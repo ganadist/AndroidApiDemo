@@ -18,6 +18,7 @@ package com.example.android.apis.view;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
@@ -37,7 +38,7 @@ import android.widget.LinearLayout;
  * {@link android.view.View#onFocusChanged(boolean, int, android.graphics.Rect)}, the focus would
  * jump to some default internal selection (the top) and not allow for the smooth handoff.
  */
-public class InternalSelectionFocus extends Activity {
+public class InternalSelectionFocus extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

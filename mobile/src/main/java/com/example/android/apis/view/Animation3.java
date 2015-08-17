@@ -22,6 +22,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Animation;
@@ -30,7 +31,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-public class Animation3 extends Activity implements AdapterView.OnItemSelectedListener {
+public class Animation3 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private static final String[] INTERPOLATORS = {
             "Accelerate", "Decelerate", "Accelerate/Decelerate",
             "Anticipate", "Overshoot", "Anticipate/Overshoot",

@@ -23,6 +23,7 @@ import android.app.SharedElementCallback;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -32,7 +33,7 @@ import java.util.Map;
 /**
  *
  */
-public class ActivityTransition extends Activity {
+public class ActivityTransition extends AppCompatActivity {
 
     private static final String TAG = "ActivityTransition";
 

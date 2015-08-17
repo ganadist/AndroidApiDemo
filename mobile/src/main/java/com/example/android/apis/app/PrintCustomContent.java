@@ -42,6 +42,7 @@ import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.android.apis.AppCompatListActivity;
 import com.example.android.apis.R;
 
 import java.io.FileOutputStream;
@@ -76,7 +77,7 @@ import java.util.List;
  * @see PrintManager
  * @see PrintDocumentAdapter
  */
-public class PrintCustomContent extends ListActivity {
+public class PrintCustomContent extends AppCompatListActivity {
 
     private static final int MILS_IN_INCH = 1000;
 

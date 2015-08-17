@@ -15,6 +15,8 @@ package com.example.android.apis.app;
  * limitations under the License.
  */
 
+import android.support.v7.app.AppCompatActivity;
+
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
@@ -39,7 +41,7 @@ import com.example.android.apis.R;
  * @see PrintManager
  * @see WebView
  */
-public class PrintBitmap extends Activity {
+public class PrintBitmap extends AppCompatActivity {
 
     private ImageView mImageView;
 

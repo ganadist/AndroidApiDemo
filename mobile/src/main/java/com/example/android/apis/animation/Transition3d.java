@@ -4,6 +4,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 import android.widget.ArrayAdapter;
 import android.widget.AdapterView;
@@ -24,7 +25,7 @@ import android.view.animation.DecelerateInterpolator;
  * the picture by 90 degrees on the Y axis. When the first half finishes, the
  * list is made invisible and the picture is set visible.
  */
-public class Transition3d extends Activity implements
+public class Transition3d extends AppCompatActivity implements
         AdapterView.OnItemClickListener, View.OnClickListener {
     private ListView mPhotosList;
     private ViewGroup mContainer;

@@ -18,10 +18,11 @@ package com.example.android.apis.graphics;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 
-class GraphicsActivity extends Activity {
+class GraphicsActivity extends AppCompatActivity {
     // set to true to test Picture
     private static final boolean TEST_PICTURE = false;
 

@@ -20,6 +20,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 import android.widget.ArrayAdapter;
 
@@ -27,7 +28,7 @@ import android.widget.ArrayAdapter;
  * Demonstrates how the layout_weight attribute can shrink an element too big
  * to fit on screen.
  */
-public class LinearLayout9 extends Activity {
+public class LinearLayout9 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

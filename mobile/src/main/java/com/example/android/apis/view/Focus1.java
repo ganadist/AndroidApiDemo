@@ -20,6 +20,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 import android.widget.ListView;
 import android.widget.ArrayAdapter;
@@ -27,7 +28,7 @@ import android.widget.ArrayAdapter;
 /**
  * Demonstrates the use of non-focusable views.
  */
-public class Focus1 extends Activity {
+public class Focus1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

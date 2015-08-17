@@ -23,12 +23,13 @@ import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 import android.nfc.NfcAdapter;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 /**
  * An example of how to use the NFC foreground NDEF push APIs.
  */
-public class ForegroundNdefPush extends Activity {
+public class ForegroundNdefPush extends AppCompatActivity {
     private NfcAdapter mAdapter;
     private TextView mText;
     private NdefMessage mMessage;

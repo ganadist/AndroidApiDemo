@@ -20,11 +20,12 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * <p>This example shows how to use horizontal gravity in a table layout.</p>
  */
-public class TableLayout11 extends Activity {
+public class TableLayout11 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

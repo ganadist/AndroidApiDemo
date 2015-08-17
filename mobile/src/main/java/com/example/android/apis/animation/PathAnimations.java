@@ -28,6 +28,7 @@ import android.graphics.Point;
 import android.graphics.PointF;
 import android.graphics.RectF;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.AttributeSet;
 import android.util.FloatMath;
 import android.util.Log;
@@ -41,7 +42,7 @@ import android.widget.RadioGroup;
 import com.example.android.apis.R;
 
 /** This application demonstrates the use of Path animation. */
-public class PathAnimations extends Activity implements
+public class PathAnimations extends AppCompatActivity implements
         RadioGroup.OnCheckedChangeListener, View.OnLayoutChangeListener {
 
     final static Path sTraversalPath = new Path();

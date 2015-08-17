@@ -21,6 +21,7 @@ import com.example.android.apis.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
@@ -66,7 +67,7 @@ import android.widget.Toast;
  *
  * Refer to the comments on {@View} for more information about view security.
  */
-public class SecureView extends Activity {
+public class SecureView extends AppCompatActivity {
     private int mClickCount;
 
     @Override

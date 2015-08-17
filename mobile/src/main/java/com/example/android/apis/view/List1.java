@@ -20,12 +20,14 @@ import android.app.ListActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 
+import com.example.android.apis.AppCompatListActivity;
+
 
 /**
  * A list view example where the 
  * data for the list comes from an array of strings.
  */
-public class List1 extends ListActivity {
+public class List1 extends AppCompatListActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

@@ -22,6 +22,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -56,7 +57,7 @@ import java.util.ArrayList;
  * is intercepting events, the button will not change state as the pointer hovers
  * over it because the interceptor itself will grab the events.
  */
-public class Hover extends Activity {
+public class Hover extends AppCompatActivity {
     private TextView mMessageTextView;
     private CheckBox mInterceptCheckBox;
     private HoverInterceptorView mInterceptor;

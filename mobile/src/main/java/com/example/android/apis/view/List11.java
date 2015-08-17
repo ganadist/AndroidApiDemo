@@ -21,12 +21,14 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.example.android.apis.AppCompatListActivity;
+
 /**
  * This example shows how to use choice mode on a list. This list is 
  * in CHOICE_MODE_MULTIPLE mode, which means the items behave like
  * checkboxes.
  */
-public class List11 extends ListActivity {
+public class List11 extends AppCompatListActivity {
     
     @Override
     public void onCreate(Bundle savedInstanceState) {

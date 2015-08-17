@@ -22,13 +22,14 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 
 /**
  * Demonstrates using match_parent within a linear layout whose size is not fixed.
  *
  */
-public class LinearLayout7 extends Activity {
+public class LinearLayout7 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

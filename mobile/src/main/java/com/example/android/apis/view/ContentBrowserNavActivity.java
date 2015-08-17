@@ -25,6 +25,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Menu;
@@ -49,8 +50,7 @@ import com.example.android.apis.R;
  * a content browser style of UI (such as a book reader) that hides the
  * nav bar as well as the status bar.
  */
-public class ContentBrowserNavActivity extends Activity
-        implements OnQueryTextListener, ActionBar.TabListener {
+public class ContentBrowserNavActivity extends AppCompatActivity implements OnQueryTextListener, ActionBar.TabListener {
 
     /**
      * Implementation of a view for displaying immersive content, using system UI

@@ -22,12 +22,13 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 
 /**
  * A simple linear layout that fills the screen vertically, but the children are not padded.
  */
-public class LinearLayout2 extends Activity {
+public class LinearLayout2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

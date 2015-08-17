@@ -26,13 +26,14 @@ import android.media.MediaPlayer.OnCompletionListener;
 import android.media.MediaPlayer.OnPreparedListener;
 import android.media.MediaPlayer.OnVideoSizeChangedListener;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.widget.Toast;
 
 
-public class MediaPlayerDemo_Video extends Activity implements
+public class MediaPlayerDemo_Video extends AppCompatActivity implements
         OnBufferingUpdateListener, OnCompletionListener,
         OnPreparedListener, OnVideoSizeChangedListener, SurfaceHolder.Callback {
 

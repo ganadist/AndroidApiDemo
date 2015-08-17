@@ -20,6 +20,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -32,7 +33,7 @@ import android.widget.AdapterView.OnItemClickListener;
 /**
  * Demonstrates splitting touch events across multiple views within a view group.
  */
-public class SplitTouchView extends Activity {
+public class SplitTouchView extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

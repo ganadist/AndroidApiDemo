@@ -23,7 +23,6 @@ import com.example.android.apis.R;
 import android.app.Activity;
 import android.os.Bundle;
 
-
 /**
  * Demonstrates creating a Screen that uses custom views. This example uses
  * {@link com.example.android.apis.view.LabelView}, which is defined in

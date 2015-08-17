@@ -21,6 +21,7 @@ import com.example.android.apis.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -50,7 +51,7 @@ import android.widget.Button;
  * </ul>
  * </p>
  */
-public class SecureDialogActivity extends Activity
+public class SecureDialogActivity extends AppCompatActivity
         implements View.OnClickListener {
     /**
      * Initialization of the Activity after it is first created.  Must at least

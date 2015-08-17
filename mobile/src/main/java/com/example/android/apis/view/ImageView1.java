@@ -18,6 +18,7 @@ package com.example.android.apis.view;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.example.android.apis.R;
 
@@ -26,7 +27,7 @@ import com.example.android.apis.R;
  * Demonstrates setting size constraints on {@link android.widget.ImageView}
  *
  */
-public class ImageView1 extends Activity {
+public class ImageView1 extends AppCompatActivity {
     
     @Override
     public void onCreate(Bundle savedInstanceState) {

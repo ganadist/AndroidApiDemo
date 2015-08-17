@@ -22,6 +22,7 @@ import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -31,7 +32,7 @@ import android.widget.Button;
  * Demonstrates making a view VISIBLE, INVISIBLE and GONE
  *
  */
-public class Visibility1 extends Activity {
+public class Visibility1 extends AppCompatActivity {
 
     private View mVictim;
 

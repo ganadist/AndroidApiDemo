@@ -23,12 +23,13 @@ import com.example.android.apis.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Chronometer;
 
-public class ChronometerDemo extends Activity {
+public class ChronometerDemo extends AppCompatActivity {
     Chronometer mChronometer;
 
     @Override

@@ -16,6 +16,7 @@
 
 package com.example.android.apis.view;
 
+import com.example.android.apis.AppCompatTabActivity;
 import com.example.android.apis.R;
 
 import android.app.TabActivity;
@@ -30,7 +31,7 @@ import android.widget.TextView;
  * It also demonstrates using an icon on one of the tabs via {@link TabHost.TabSpec#setIndicator(CharSequence, android.graphics.drawable.Drawable)}
  *
  */
-public class Tabs2 extends TabActivity implements TabHost.TabContentFactory {
+public class Tabs2 extends AppCompatTabActivity implements TabHost.TabContentFactory {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -28,6 +28,7 @@ import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.telephony.SmsManager;
 import android.text.TextUtils;
 import android.util.Log;
@@ -43,7 +44,7 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 
 import com.example.android.apis.R;
 
-public class SmsMessagingDemo extends Activity {
+public class SmsMessagingDemo extends AppCompatActivity {
     /** Tag string for our debug logs */
     private static final String TAG = "SmsMessagingDemo";
 

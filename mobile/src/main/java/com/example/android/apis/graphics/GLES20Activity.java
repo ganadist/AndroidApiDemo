@@ -22,12 +22,13 @@ import android.content.Context;
 import android.content.pm.ConfigurationInfo;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * This sample shows how to check for OpenGL ES 2.0 support at runtime, and then
  * use either OpenGL ES 1.0 or OpenGL ES 2.0, as appropriate.
  */
-public class GLES20Activity extends Activity {
+public class GLES20Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

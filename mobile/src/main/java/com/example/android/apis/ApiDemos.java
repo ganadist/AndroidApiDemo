@@ -33,7 +33,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ApiDemos extends ListActivity {
+public class ApiDemos extends AppCompatListActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

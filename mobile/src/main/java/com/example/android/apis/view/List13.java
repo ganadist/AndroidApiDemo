@@ -28,6 +28,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.AbsListView.OnScrollListener;
 
+import com.example.android.apis.AppCompatListActivity;
 import com.example.android.apis.R;
 
 
@@ -38,7 +39,7 @@ import com.example.android.apis.R;
  * has finished, the temporary data is replace with the actual data.
  *
  */
-public class List13 extends ListActivity implements ListView.OnScrollListener {
+public class List13 extends AppCompatListActivity implements ListView.OnScrollListener {
 
     private TextView mStatus;
     

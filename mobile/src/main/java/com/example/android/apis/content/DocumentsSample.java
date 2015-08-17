@@ -25,6 +25,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.DocumentsContract;
 import android.provider.DocumentsContract.Document;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -42,7 +43,7 @@ import java.io.OutputStream;
 /**
  * Example that exercises client side of {@link DocumentsContract}.
  */
-public class DocumentsSample extends Activity {
+public class DocumentsSample extends AppCompatActivity {
     private static final String TAG = "DocumentsSample";
 
     private static final int CODE_READ = 42;

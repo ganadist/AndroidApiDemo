@@ -16,6 +16,7 @@
 
 package com.example.android.apis.accessibility;
 
+import com.example.android.apis.AppCompatListActivity;
 import com.example.android.apis.R;
 
 import android.app.ListActivity;
@@ -26,7 +27,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 /** Starts up the task list that will interact with the AccessibilityService sample. */
-public class TaskListActivity extends ListActivity {
+public class TaskListActivity extends AppCompatListActivity {
 
     /** An intent for launching the system settings. */
     private static final Intent sSettingsIntent =

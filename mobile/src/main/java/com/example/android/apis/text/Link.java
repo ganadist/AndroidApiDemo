@@ -21,6 +21,7 @@ import com.example.android.apis.R;
 import android.app.Activity;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.text.SpannableString;
 import android.text.Spanned;
@@ -29,7 +30,7 @@ import android.text.style.StyleSpan;
 import android.text.style.URLSpan;
 import android.widget.TextView;
 
-public class Link extends Activity {
+public class Link extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

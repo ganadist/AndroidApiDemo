@@ -20,11 +20,12 @@ import com.example.android.apis.R;
 import android.app.Activity;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
 
-public class VideoViewDemo extends Activity {
+public class VideoViewDemo extends AppCompatActivity {
 
     /**
      * TODO: Set the path variable to a streaming video URL or a local media

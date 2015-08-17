@@ -22,6 +22,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -30,7 +31,7 @@ import android.widget.ImageView;
 
 import java.util.List;
 
-public class LayoutAnimation1 extends Activity {
+public class LayoutAnimation1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

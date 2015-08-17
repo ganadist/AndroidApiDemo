@@ -24,6 +24,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 
@@ -38,7 +39,7 @@ import android.widget.TextView;
  * @see StyledText for more depth about using styled text, both with getString()
  *                 and in the layout xml files.
  */
-public class ResourcesSample extends Activity {
+public class ResourcesSample extends AppCompatActivity {
     @Override
 	protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

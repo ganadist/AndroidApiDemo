@@ -19,11 +19,12 @@ package com.example.android.apis.view;
 import com.example.android.apis.R;
 
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.os.Bundle;
 
-public class DateWidgets2 extends Activity {
+public class DateWidgets2 extends AppCompatActivity {
 
     // where we display the selected date and time
     private TextView mTimeDisplay;

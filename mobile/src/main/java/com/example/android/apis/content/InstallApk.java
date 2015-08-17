@@ -31,6 +31,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.ParcelFileDescriptor;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -48,7 +49,7 @@ import java.io.InputStream;
 /**
  * Demonstration of styled text resources.
  */
-public class InstallApk extends Activity {
+public class InstallApk extends AppCompatActivity {
     static final int REQUEST_INSTALL = 1;
     static final int REQUEST_UNINSTALL = 2;
 

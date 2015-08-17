@@ -16,6 +16,7 @@
 
 package com.example.android.apis.preference;
 
+import com.example.android.apis.AppCompatPreferenceActivity;
 import com.example.android.apis.R;
 
 import android.os.Bundle;
@@ -32,7 +33,7 @@ import java.util.List;
  * panel with headers.
  */
 //BEGIN_INCLUDE(activity)
-public class PreferenceWithHeaders extends PreferenceActivity {
+public class PreferenceWithHeaders extends AppCompatPreferenceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

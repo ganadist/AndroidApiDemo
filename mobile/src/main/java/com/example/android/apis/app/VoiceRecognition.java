@@ -27,6 +27,7 @@ import android.content.pm.ResolveInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.speech.RecognizerIntent;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -44,7 +45,7 @@ import java.util.List;
 /**
  * Sample code that invokes the speech recognition intent API.
  */
-public class VoiceRecognition extends Activity implements OnClickListener {
+public class VoiceRecognition extends AppCompatActivity implements OnClickListener {
 
     private static final String TAG = "VoiceRecognition";
 

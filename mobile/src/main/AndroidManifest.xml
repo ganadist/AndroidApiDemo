@@ -51,6 +51,7 @@
             android:label="@string/activity_sample_code"
             android:icon="@drawable/app_sample_code"
             android:hardwareAccelerated="true"
+            android:theme="@style/ThemeCurrent"
             android:supportsRtl="true">
 
         <!-- This is how we can request a library but still allow the app
@@ -2291,7 +2292,8 @@
         </activity>
 
         <activity android:name=".view.Controls9"
-                  android:label="Views/Controls/9. Default Theme">
+                  android:label="Views/Controls/9. Default Theme"
+                  android:theme="@style/ThemeDefault">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
@@ -2455,8 +2457,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".view.SearchViewActionBar" android:label="Views/Search View/Action Bar"
-                android:theme="@android:style/Theme.Holo">
+        <activity android:name=".view.SearchViewActionBar" android:label="Views/Search View/Action Bar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
@@ -2465,8 +2466,7 @@
                        android:value=".app.SearchQueryResults" />
         </activity>
 
-        <activity android:name=".view.SearchViewAlwaysVisible" android:label="Views/Search View/Always Expanded"
-                android:theme="@android:style/Theme.Holo">
+        <activity android:name=".view.SearchViewAlwaysVisible" android:label="Views/Search View/Always Expanded">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
@@ -2475,8 +2475,7 @@
                        android:value=".app.SearchQueryResults" />
         </activity>
 
-        <activity android:name=".view.SearchViewFilterMode" android:label="Views/Search View/Filter"
-                android:theme="@android:style/Theme.Holo">
+        <activity android:name=".view.SearchViewFilterMode" android:label="Views/Search View/Filter">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
@@ -2550,7 +2549,7 @@
 
         <activity android:name=".view.ContentBrowserActivity"
                 android:label="Views/System UI Visibility/Content Browser"
-                android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+                android:theme="@style/ThemeCurrent.Light.DarkActionBar"
                 android:uiOptions="splitActionBarWhenNarrow"
                 android:enabled="@bool/atLeastJellyBean">
             <intent-filter>
@@ -2561,7 +2560,7 @@
 
         <activity android:name=".view.ContentBrowserNavActivity"
                 android:label="Views/System UI Visibility/Content Browser Nav Bar"
-                android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+                android:theme="@style/ThemeCurrent.Light.DarkActionBar"
                 android:uiOptions="splitActionBarWhenNarrow"
                 android:enabled="@bool/atLeastKitKat">
             <intent-filter>
@@ -2572,7 +2571,7 @@
 
         <activity android:name=".view.VideoPlayerActivity"
                 android:label="Views/System UI Visibility/Video Player"
-                android:theme="@android:style/Theme.Holo"
+                android:theme="@style/ThemeCurrent.Light.DarkActionBar"
                 android:uiOptions="splitActionBarWhenNarrow"
                 android:enabled="@bool/atLeastJellyBean">
             <intent-filter>
@@ -2583,7 +2582,7 @@
 
         <activity android:name=".view.TranslucentBarsActivity"
                 android:label="Views/System UI Visibility/Translucent Bars"
-                android:theme="@android:style/Theme.Holo.NoActionBar.TranslucentDecor"
+		android:theme="@android:style/Theme.Holo.NoActionBar.TranslucentDecor"
                 android:enabled="@bool/atLeastKitKat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -2593,7 +2592,7 @@
 
         <activity android:name=".view.GameActivity"
                 android:label="Views/System UI Visibility/Game"
-                android:theme="@android:style/Theme.Holo.NoActionBar"
+                android:theme="@style/ThemeCurrent.NoActionBar"
                 android:enabled="@bool/atLeastKitKat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -2627,7 +2626,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".graphics.CameraPreview" android:label="Graphics/CameraPreview" android:screenOrientation="landscape">
+        <activity android:name=".graphics.CameraPreview"
+                android:label="Graphics/CameraPreview"
+                android:theme="@style/ThemeCurrent.NoTitleBar"
+                android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
@@ -2636,7 +2638,7 @@
 
         <activity android:name=".graphics.CompressedTextureActivity"
                 android:label="Graphics/OpenGL ES/Compressed Texture"
-                android:theme="@android:style/Theme.NoTitleBar"
+                android:theme="@style/ThemeCurrent.NoTitleBar"
                 android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -2646,7 +2648,7 @@
 
         <activity android:name=".graphics.CubeMapActivity"
                 android:label="Graphics/OpenGL ES/Cube Map"
-                android:theme="@android:style/Theme.NoTitleBar"
+                android:theme="@style/ThemeCurrent.NoTitleBar"
                 android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -2657,7 +2659,7 @@
 
         <activity android:name=".graphics.FrameBufferObjectActivity"
                 android:label="Graphics/OpenGL ES/Frame Buffer Object"
-                android:theme="@android:style/Theme.NoTitleBar"
+                android:theme="@style/ThemeCurrent.NoTitleBar"
                 android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -2667,7 +2669,7 @@
 
         <activity android:name=".graphics.GLSurfaceViewActivity"
                 android:label="Graphics/OpenGL ES/GLSurfaceView"
-                android:theme="@android:style/Theme.NoTitleBar"
+                android:theme="@style/ThemeCurrent.NoTitleBar"
                 android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -2677,7 +2679,7 @@
 
         <activity android:name=".graphics.GLES20Activity"
                 android:label="Graphics/OpenGL ES/OpenGL ES 2.0"
-                android:theme="@android:style/Theme.NoTitleBar"
+                android:theme="@style/ThemeCurrent.NoTitleBar"
                 android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -2716,7 +2718,7 @@
 
         <activity android:name=".graphics.spritetext.SpriteTextActivity"
                 android:label="Graphics/OpenGL ES/Sprite Text"
-                android:theme="@android:style/Theme.NoTitleBar"
+                android:theme="@style/ThemeCurrent.NoTitleBar"
                 android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -2726,7 +2728,7 @@
 
         <activity android:name=".graphics.TouchRotateActivity"
                 android:label="Graphics/OpenGL ES/Touch Rotate"
-                android:theme="@android:style/Theme.NoTitleBar"
+                android:theme="@style/ThemeCurrent.NoTitleBar"
                 android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -2773,7 +2775,7 @@
         <activity android:name=".graphics.ShadowCardStack"
                   android:label="Graphics/Shadow Card Stack"
                   android:enabled="@bool/atLeastLRelease"
-                  android:theme="@android:style/Theme.Material.Light">
+                  android:theme="@style/ThemeCurrent.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
@@ -2783,7 +2785,7 @@
         <activity android:name=".graphics.ShadowCardDrag"
                   android:label="Graphics/Shadow Card Drag"
                   android:enabled="@bool/atLeastLRelease"
-                  android:theme="@android:style/Theme.Material.Light">
+                  android:theme="@style/ThemeCurrent.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
@@ -2967,7 +2969,6 @@
         </activity>
 
         <activity android:name=".graphics.TouchPaint" android:label="Graphics/Touch Paint"
-                android:theme="@style/Theme.Black"
                 android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -18,6 +18,7 @@ package com.example.android.apis.view;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -36,7 +37,7 @@ import android.widget.ScrollView;
  * within either {@link android.widget.ScrollView}s or {@link android.widget.ListView}s can
  * expect to keep their internal interesting rectangle visible.
  */
-public class InternalSelectionScroll extends Activity {
+public class InternalSelectionScroll extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

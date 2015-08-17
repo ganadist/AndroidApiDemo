@@ -20,13 +20,14 @@ import android.app.Activity;
 import android.graphics.PixelFormat;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 
 /**
  * Wrapper activity demonstrating the use of {@link GLSurfaceView} to
  * display translucent 3D graphics.
  */
-public class TranslucentGLSurfaceViewActivity extends Activity {
+public class TranslucentGLSurfaceViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -25,6 +25,7 @@ import android.view.View.OnKeyListener;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 
+import com.example.android.apis.AppCompatListActivity;
 import com.example.android.apis.R;
 
 import java.util.ArrayList;
@@ -33,7 +34,7 @@ import java.util.ArrayList;
  * Demonstrates the using a list view in transcript mode
  *
  */
-public class List12 extends ListActivity implements OnClickListener, OnKeyListener {
+public class List12 extends AppCompatListActivity implements OnClickListener, OnKeyListener {
 
     private EditText mUserText;
     

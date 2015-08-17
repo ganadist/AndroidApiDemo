@@ -23,6 +23,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.hardware.ConsumerIrManager;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 import android.util.Log;
@@ -49,7 +50,7 @@ import com.example.android.apis.R;
  *         </tr>
  * </table>
  */
-public class ConsumerIr extends Activity {
+public class ConsumerIr extends AppCompatActivity {
     private static final String TAG = "ConsumerIrTest";
     TextView mFreqsText;
     ConsumerIrManager mCIR;

@@ -22,6 +22,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.ActionMode;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -38,7 +39,7 @@ import java.util.List;
 /**
  * This demo illustrates the use of CHOICE_MODE_MULTIPLE_MODAL, a.k.a. selection mode on GridView.
  */
-public class Grid3 extends Activity {
+public class Grid3 extends AppCompatActivity {
 
     GridView mGrid;
 

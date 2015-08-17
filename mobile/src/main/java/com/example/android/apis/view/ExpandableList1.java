@@ -33,13 +33,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ExpandableListView.ExpandableListContextMenuInfo;
 
+import com.example.android.apis.AppCompatExpandableListActivity;
 import com.example.android.apis.R;
 
 /**
  * Demonstrates expandable lists using a custom {@link ExpandableListAdapter}
  * from {@link BaseExpandableListAdapter}.
  */
-public class ExpandableList1 extends ExpandableListActivity {
+public class ExpandableList1 extends AppCompatExpandableListActivity {
 
     ExpandableListAdapter mAdapter;
 

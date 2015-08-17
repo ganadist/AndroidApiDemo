@@ -44,6 +44,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.ParcelFileDescriptor;
+import android.support.v7.app.AppCompatActivity;
 import android.telephony.PhoneNumberUtils;
 import android.telephony.SmsManager;
 import android.telephony.TelephonyManager;
@@ -65,7 +66,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Random;
 
-public class MmsMessagingDemo extends Activity {
+public class MmsMessagingDemo extends AppCompatActivity {
     private static final String TAG = "MmsMessagingDemo";
 
     public static final String EXTRA_NOTIFICATION_URL = "notification_url";
