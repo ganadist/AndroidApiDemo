@@ -18,6 +18,7 @@ package com.example.android.apis.view;
 
 import android.app.ExpandableListActivity;
 import android.os.Bundle;
+import android.os.Build;
 import android.view.ContextMenu;
 import android.view.Gravity;
 import android.view.MenuItem;
@@ -119,8 +120,11 @@ public class ExpandableList1 extends ExpandableListActivity {
             textView.setGravity(Gravity.CENTER_VERTICAL | Gravity.LEFT);
             // Set the text starting position
             textView.setPaddingRelative(36, 0, 0, 0);
-            // Set the text alignment
-            textView.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_START);
+
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+                // Set the text alignment
+                textView.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_START);
+            }
             return textView;
         }
         
