@@ -283,6 +283,7 @@
         </activity>
 
         <activity android:name=".app.PresentationActivity"
+                android:enabled="@bool/atLeastJellyBeanMR1"
                 android:label="@string/activity_presentation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -291,6 +292,7 @@
         </activity>
 
         <activity android:name=".app.PresentationWithMediaRouterActivity"
+                android:enabled="@bool/atLeastJellyBeanMR1"
                 android:label="@string/activity_presentation_with_media_router">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -315,6 +317,7 @@
         </activity>
 
         <activity android:name=".app.SecureSurfaceViewActivity"
+                android:enabled="@bool/atLeastJellyBeanMR1"
                 android:label="@string/activity_secure_surface_view">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -1281,7 +1284,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".content.ChangedContacts" android:label="@string/activity_changed_contact">
+        <activity android:name=".content.ChangedContacts" android:label="@string/activity_changed_contact"
+            android:enabled="@bool/atLeastJellyBeanMR2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.SAMPLE_CODE"/>
@@ -1344,7 +1348,9 @@
         <!--     HARDWARE PACKAGE SAMPLES          -->
         <!-- ************************************* -->
 
-        <activity android:name=".hardware.ConsumerIr" android:label="Hardware/Consumer IR">
+        <activity android:name=".hardware.ConsumerIr"
+                  android:label="Hardware/Consumer IR"
+                  android:enabled="@bool/atLeastKitKat" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
@@ -1362,7 +1368,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".os.TriggerSensors" android:label="OS/TriggerSensors">
+        <activity android:name=".os.TriggerSensors"
+                android:enabled="@bool/atLeastJellyBeanMR2"
+                android:label="OS/TriggerSensors">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
@@ -1580,7 +1588,7 @@
 
         <activity android:name=".animation.Transitions"
                   android:label="Animation/Simple Transitions"
-                  android:enabled="@bool/atLeastHoneycomb">
+                  android:enabled="@bool/atLeastKitKat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
@@ -2548,6 +2556,7 @@
         </activity>
 
         <activity android:name=".view.WindowFocusObserver"
+                  android:enabled="@bool/atLeastJellyBeanMR2"
                   android:label="Views/Focus/6. Window Focus Observer">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -2907,6 +2916,7 @@
 
         <activity android:name=".graphics.ShadowCardStack"
                   android:label="Graphics/Shadow Card Stack"
+                  android:enabled="@bool/atLeastLRelease"
                   android:theme="@android:style/Theme.Material.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -2916,6 +2926,7 @@
 
         <activity android:name=".graphics.ShadowCardDrag"
                   android:label="Graphics/Shadow Card Drag"
+                  android:enabled="@bool/atLeastLRelease"
                   android:theme="@android:style/Theme.Material.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -3195,6 +3206,7 @@
         </activity>
 
         <activity android:name=".media.projection.MediaProjectionDemo"
+                android:enabled="@bool/atLeastLRelease"
                 android:label="Media/MediaProjection">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -3261,8 +3273,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".security.KeyStoreUsage" android:label="Security/KeyStore"
-            android:windowSoftInputMode="adjustPan">
+        <activity android:name=".security.KeyStoreUsage"
+                  android:label="Security/KeyStore"
+                  android:enabled="@bool/atLeastJellyBeanMR2"
+                  android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
